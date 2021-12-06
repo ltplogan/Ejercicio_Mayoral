@@ -1,0 +1,315 @@
+<!doctype html>
+<html class="no-js" lang="ES">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mayoral</title>
+    <meta name="description" content="Ejercicio Mayoral">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Lorenzo Toledo Peláez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Vollkorn|Cookie' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- NUESTRO CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- PARA JS VINCULADO-->
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="barra" id="navegacion">
+                <a class="brand" href="index.html"> Mayoral</a>
+                <a href="#" class="pills">Polos</a>
+                <a href="#" class="pills">Zapatos</a>
+                <a href="javascript:void(0);" class="icon" onclick="burguer()">&#9776;</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor main">
+
+        <div class="row">
+
+            <div class="col-12">
+                <!-- Buscar -->
+
+                <div class="contenedor-flex">
+                    
+                <div class="search-box">
+                    <form action="" onsubmit="return false">
+                        <input type="text" id="search" placeholder="Buscar">
+                    </form>
+                </div>
+           
+                <div class="cja-icons">
+                    <i class="fa fa-plus"></i> <i class="fa fa-minus"></i>
+                </div>
+            </div>
+
+        </div>
+
+              
+
+            <div class="col-12">
+                <h4 style="font-weight:100; border-bottom: 1px solid #cccccc; padding: 10px 0 10px 0; color: #cccccc;">
+                    Ordenar
+                    por</h4>
+
+                <nav>
+                    <a href="#" class="filter active" data-filter="all">Todos</a>
+                    <a href="#" class="filter" data-filter="polos">Polos</a>
+                    <a href="#" class="filter" data-filter="zapatos">Zapatos</a>
+                </nav>
+            </div>
+
+            <div class="col-2 col-m-6 col polos">
+
+                <div class="img">
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-manga-larga-vestir-nino_id_11-04161-061-M-4.JPG?v=20210827045331"
+                        alt="polos">
+                    <div class="descripcion">
+                        <h5>Polo manga larga vestir niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <p class="descuento">15,19 €(-20%)</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-2 col-m-6 col polos">
+
+                <div class="img">
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-manga-larga-vestir-nino_id_11-04161-058-M-2.JPG?v=20210527133751"
+                        alt="polos">
+
+                    <div class="descripcion">
+                        <h5>Polo manga larga vestir niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visible-m-block"></div>
+
+            <div class="col-2 col-m-6 col polos">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-manga-larga-print-nino_id_11-04159-031-M-4.JPG?v=20210827045330"
+                        alt="polos">
+
+                    <div class="descripcion">
+                        <h5>Polo manga larga print niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <p class="descuento">15,19 €(-20%)</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 col-m-6 col polos">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo--ecofriends-manga-larga-estampado-nino_id_11-04158-096-M-2.JPG?v=20210527133752"
+                        alt="polos">
+
+                    <div class="descripcion">
+                        <h5>Polo ECOFRIENDS manga larga estampado</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visible-m-block"></div>
+
+            <div class="col-2 col-m-6 col polos">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-manga-larga-combinado-nino_id_11-04154-066-M-4.JPG?v=20210705052234"
+                        alt="polos">
+
+                    <div class="descripcion">
+                        <h5>Polo manga larga combinado niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <p class="descuento">15,19 €(-20%)</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col-2 col-m-6 col zapatos" data-filter="">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/bota-montana-reforzada-bebe-nino_id_11-42262-060-M-2.JPG?v=20210527133659"
+                        alt="zapatos">
+
+                    <div class="descripcion">
+                        <h5>Bota montaña reforzada bebé niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <p class="descuento">15,19 €(-20%)</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 col-m-6 col zapatos" data-filter="">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/botin-deportivo-bebe-nino_id_11-42266-027-M-2.JPG?v=20210527133659"
+                        alt="zapatos">
+
+                    <div class="descripcion">
+                        <h5>Botín deportivo bebé niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-2 col-m-6 col zapatos" data-filter="">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/bota-de-agua-bebe-nino_id_11-42274-072-M-4.JPG?v=20210831093315g"
+                        alt="zapatos">
+
+                    <div class="descripcion">
+                        <h5>Bota de agua bebé niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <p class="descuento">15,19 €(-20%)</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-2 col-m-6 col zapatos" data-filter="">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/deportiva-comfort-suela-color-bebe-nino_id_11-42272-039-M-4.JPG?v=20210922071253"
+                        alt="zapatos">
+
+                    <div class="descripcion">
+                        <h5>Deportiva comfort suela color bebé niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 col-m-6 col zapatos" data-filter="">
+
+                <div class="img">
+
+                    <img src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/deportiva-tricolor-bebe-nino_id_11-42264-050-M-4.JPG?v=20210429045130"
+                        alt="zapatos">
+
+                    <div class="descripcion">
+                        <h5>Botín deportivo bebé niño</h5>
+                        <br>
+                        <p class="precio">18,99 €</p>
+                        <p class="descuento">15,19 €(-20%)</p>
+                        <br>
+                        <p style="text-align: center; color: grey;">más colores</p>
+                        <br>
+                        <a href="#">Añadir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-result">
+            <p>No hay más productos.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <span class="logoFooter">Mayoral</span>
+        <div class="caja">
+            <div class="tooltip"><a href="mailto:ltp.lorenzo@gmail.com">Diseño: Lorenzo Toledo</a>
+                <span class="tooltiptext">Si deseas una página web a medida haz click en el enlace.</span>
+            </div>
+        </div>
+
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <!-- <hr style="width: 20%; margin:auto; margin-top: 5px; margin-bottom: 5px;"> -->
+        <span class="copy">© Copyright 2021</span>
+    </div>
+
+    <!-- LOS SCRIPT Y VINCULOS A JS ABAJO ANTES DE CIERRE DE BODY -->
+
+    <!-- JQUERY EN LA NUBE 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+
+    <!-- JQUERY EN LOCAL 
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+	<script>
+	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	e.src='//www.google-analytics.com/analytics.js';
+	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+	</script>-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
